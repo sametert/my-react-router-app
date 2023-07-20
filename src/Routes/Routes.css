@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.Home {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Features , .Users{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 5px;
+}
+
+.Home .card {
+    background-color: rgb(247, 248, 180);
+}
+
+.Features .card{
+    background-color: rgb(158, 212, 243);
+}
+
+.Users .cart {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: rgb(247, 197, 122);
+    display: flex;
+}
+
+.Home .card , .Features .card {
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Home .card header h1, .Features .card header h1 {
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+}
+
+.Home .card header img, .Features .card header img {
+    width: 100%;
+    height: 250px;
+}
+
+.Home .card section .title , .Features .card section .title {
+    text-align: center;
+    font-size: 24px;  
+}
+
+.Home .card section .description , .Features .card section .description {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.Home .card section .price , .Features .card section .price {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
